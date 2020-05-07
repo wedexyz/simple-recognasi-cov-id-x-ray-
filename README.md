@@ -2,7 +2,9 @@
 meminimalisir model dan menggunakan kedalaman data pada arsitektur tensorflow dan keras
 # library
 pip install opencv
+<br>
 pip install tensorflow gpu
+<br>
 pip install numpy
 # running 
 anaconda 3.6 
