@@ -63,11 +63,12 @@ while True:
             #print(prediction[0])
             a = float(prediction[0][0])
             b = float(prediction[0][1])
+	    #c = float(prediction[0][2])
             #print(a)
-            if  a > b :
+            if  a > 0.7 :
                # print("terinfeksi")
                 print('{}: {}'.format(labels[0], prediction[0][0]))
-            else:
+	    elif b > 0.7
                 #print("normal")
                 print('{}: {}'.format(labels[1], prediction[0][1]))
         cv2.imshow('webcam', img)
